@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:paddingBottom="8dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:background="#424242">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_title"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:text="@string/symbol_search" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:id="@+id/content_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/stock_search" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:hint="@string/edit_hint"
+        android:id="@+id/dialog_entry"
+        android:textColorHint="#32ffffff"
+        android:ems="10"
+        android:background="@drawable/apptheme_edit_text_holo_light"
+        android:textColor="@color/white"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_button"
+        android:layout_gravity="end"
+        android:textColor="#29d9e1"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginTop="8dp"
+        android:text="@string/ok"
+        android:contentDescription="@string/ok_content"/>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:id="@+id/stock_row"
+    android:baselineAligned="false">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_symbol"
+            android:layout_marginTop="@dimen/top_margin"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/bigTextSize"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_detail"
+            android:textColor="#99ffffff"
+            android:layout_marginTop="1dp"
+            android:layout_below="@+id/stock_symbol"
+            android:textSize="@dimen/smallTextSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:id="@+id/stock_value"
+            android:layout_toLeftOf="@+id/stock_change"
+            android:layout_toStartOf="@+id/stock_change"
+            android:gravity="center_vertical"
+            android:layout_marginRight="@dimen/size_10"
+            android:layout_marginEnd="@dimen/size_10"
+            android:layout_centerInParent="true"
+            android:textColor="#e6ffffff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_change"
+            android:gravity="center_vertical"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

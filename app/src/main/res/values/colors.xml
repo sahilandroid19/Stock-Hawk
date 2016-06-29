@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3E3E45</color>
+    <color name="colorAccentPressed">#FF2B2B30</color>
+    <color name="itemPressed">#71787a</color>
+    <color name="changePositive">#FF1E8519</color>
+    <color name="changeNegative">@android:color/holo_red_dark</color>
+    <color name="white">#fff</color>
+</resources>
